@@ -43,7 +43,7 @@
         class="tasks__input"
       />
       <button
-        class="tasks__btn"
+        class="tasks__btn-register"
         @click="addTask"
       >
         Add task
@@ -51,3 +51,45 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+  .tasks__list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.6em;
+  }
+
+  .tasks__li {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tasks__btn {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+  }
+
+  .tasks__register {
+    margin-top: 1.6em;
+    height: 3.4em;
+    max-height: 3.4em;
+  }
+
+  .tasks__btn-register {
+    font-size: 1.6em;
+    height: 100%;
+    border: none;
+    margin-left: 0.5em;
+    cursor: pointer;
+    border-radius: 0.2em;
+    padding: 0.5em;
+  }
+
+  .tasks__input {
+    height: 100%;
+    display: inline-block;
+    border-radius: 0.5em;
+    border: solid 0.1em #000;
+  }
+</style>
