@@ -1,7 +1,7 @@
 <script setup lang="ts">
-  import TaskList from '@/components/TaskList.vue';
+  import EntryPoint from './components/EntryPoint.vue';
 </script>
 
 <template>
-  <TaskList />
+  <EntryPoint />
 </template>
